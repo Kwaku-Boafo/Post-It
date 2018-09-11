@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>fireMessage</title>
+
+    <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->   
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBoDItLTNQvoFNiRsGj233WbzCSDcKgEME",
+    authDomain: "firemessages-f73f7.firebaseapp.com",
+    databaseURL: "https://firemessages-f73f7.firebaseio.com",
+    projectId: "firemessages-f73f7",
+    storageBucket: "firemessages-f73f7.appspot.com",
+    messagingSenderId: "1073526728609"
+  };
+  firebase.initializeApp(config);
+</script>
+
+    <!--custom files-->
+    <script src="script2.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!--This div will be populated with messages-->
+
+    
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form action= "file:///C:/Users/ASC%20Student/Documents/CodingProjects/blogsite/index.html">
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Name:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Post-it:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <a id="link2" href="index.html"><button id="submitButton">Submit</button></a>
+        </form>
+    </div>
+</body>
+</html>
