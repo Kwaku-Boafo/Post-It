@@ -3,9 +3,8 @@
 let postButton = document.getElementById("createPostIcon");
 
 function postEvent(){
-    
     let link = document.getElementById("link");
-    link.href = "post.html";
+    link.href = "../HTML/post.html";
 }
 
 postButton.addEventListener("click" , postEvent);

@@ -1,0 +1,30 @@
+.navbar-brand{
+    font-size: 80px;
+    font-family: cursive;
+    padding-top: 25px;
+}
+
+.navbar-inverse{
+    height:80px;
+    border-radius: 0px;
+}
+
+.navbar-inverse > .container-fluid > .navbar-header{
+    width: 700px;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.navbar-nav{
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+
+button {
+    width: 45px;
+}
