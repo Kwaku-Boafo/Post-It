@@ -4,7 +4,7 @@ let postButton = document.getElementById("createPostIcon");
 
 function postEvent(){
     let link = document.getElementById("link");
-    link.href = "../HTML/post.html";
+    link.href = "post.html";
 }
 
 postButton.addEventListener("click" , postEvent);

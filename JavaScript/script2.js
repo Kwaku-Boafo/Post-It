@@ -11,7 +11,7 @@ const database =  firebase.database().ref();
  */
 function updateDB(event){
     let link2 = document.getElementById("link2");
-    link2.href = "../HTML/index.html";
+    link2.href = "index.html";
     const username        = usernameElement.value;
     const message         = messageElement.value;
 
